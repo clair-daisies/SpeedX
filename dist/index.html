@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FlashX-IT'S YOUR WORLD, RIDE IT!</title>
+    <script src="https://kit.fontawesome.com/beb01e195c.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/simplelightbox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-------------navbar------------->
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">SpeedX</h1>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#About">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!----------------showcase--------------->
+    <section class="showcase">
+      <div class="container">
+        <div>
+          <h1>IT'S YOUR WORLD, RIDE IT!</h1>
+          <p>
+            Best place to buy best quality bikes. Also find the right price to
+            list your bike at and completing the listing on the marketplace
+            within only minute.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <img src="img/showcase.jpg" alt="bike" />
+      </div>
+    </section>
+
+    <!------------ overlay text ---->
+    <section class="overlay-wrapper">
+      <div class="overlay">
+        <div class="overlay-inner">
+          <h3>Fast & durable</h3>
+          <h2>Ride bikes. Have fun. Feel good.</h2>
+          <p>
+            Available in sizes 29 to 700c and rim widths between 22mm and 27mm,
+            Reserves are ready to roll on anything from endless gravel to
+            face-melting downhills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--------------gallery----->
+    <section class="gallery-wrapper">
+      <div class="gallery">
+        <a href="./img/gallery3.jpg" class="big"
+          ><img src="./img/gallery3.jpg" alt="gallery"
+        /></a>
+        <a href="./img/gallery2.jpg" class="big"
+          ><img src="./img/gallery2.jpg" alt="gallery1"
+        /></a>
+        <a href="./img/gallery6.jpg" class="big"
+          ><img src="./img/gallery6.jpg" alt="gallery1"/></a
+        ><a href="./img/gallery4.jpg" class="big"
+          ><img src="./img/gallery4.jpg" alt="gallery1"/></a
+        ><a href="./img/gallery1.jpg" class="big"
+          ><img src="./img/gallery1.jpg" alt="gallery1"/></a
+        ><a href="./img/gallery5.jpg" class="big"
+          ><img src="./img/gallery5.jpg" alt="gallery1"
+        /></a>
+      </div>
+    </section>
+
+    <!---------------footer-------->
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <h2 class="text-2 mb-1">Follow The Fun</h2>
+          <a href="http://twitter.com">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Join Our Team</a></li>
+            <li><a href="#">Event</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>Get the Bike of Your Dream, Today!</p>
+          <form name="email-form" method="POST" data-netlify="true">
+            <div class="email-form">
+              <span class="form-control-wrap">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="Enter Your Email"
+                />
+              </span>
+              <button type="submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+      </div>
+    </footer>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+      $(function() {
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
